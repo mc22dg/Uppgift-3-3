@@ -1,23 +1,91 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+a{
+    display: none;
+}
+
+li a{
+    display: block;
+}
 
 #container {
-    width: 643;
-    height: 672;
+    width: 700;
+    /*height: 672;*/
 }
 
 #topbar{ 
-    background-image: url(pics/coffey.jpg);
-    height: 200px;
-    width: 600px;
+    background-color: #51473d;   
+    height: 4px;
+    padding-right: 2px;
+    font-family: verdana;
+    color: #fff;
+    font-style: italic;
+    font-size:11px;
+    padding-top: 5px;
+    padding-bottom: 14px;
+    width:698px;
+   
+    background-repeat:no-repeat;
+    background-size: 650px 300px;
+   
     margin: 0px;
     text-align: right;
     
     }
 
 #menu li { display:inline-block;
-    width: 100px;;
+    width: 100px;
    
 }
+#menu ul .active {
+    background-color #eae7d2;
+}
+
+#menu ul .active a{
+    color: #797066;
+}
+
+#menu ul {
+    list-style-type:none;
+    margin-left:-28px;
+    padding-top: 34px;
+    
+}
+
+#menu ul li{
+    float:left;
+    margin-top: 194px;
+    margin-right: 3px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #797066;
+    text-align: center;
+    height: 30px;
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-top: 9px;
+    font-size: 19px;
+    color: #dce7c5;
+}
+
+#menu{
+     background-image: url(pics/coffey.jpg);
+     background-size: 700px 221px;
+     background-repeat: no-repeat;
+     height:267px;
+     background-color: #51473d;
+     width:700px;
+     margin-top:-16px;
+     
+}
+
+#menu ul li a{
+    color: #eae7d2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: verdana;
+    font-size: 16px;
+}
+
 
 #content{ float:left;
     
@@ -27,9 +95,45 @@
     margin:5px;
 }
 
+#maincontent p{
+    margin-top: 18px;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: 200px;
+    line-height: 22px;
+    color: #797066;
+}
+
+#maincontent img{
+    float: left;
+    padding-right: 8px;
+    
+}
+
+#content #maincontent h1{
+    font-family: "Times New Roman";
+    color: #797066;
+    font-weight: 100;
+    font-size: 38;
+}
+
+#maincontent{
+    background-color: #eae7d2;
+    padding-top: 30px;
+    width: 390px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#subcontent{
+    
+}
+
 #maincontent{float:;}
 
-#subcontent{}
+#subcontent{
+}
 
 #bottomcontent{}
 
