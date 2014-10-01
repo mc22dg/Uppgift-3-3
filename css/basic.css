@@ -1,1 +1,35 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container {
+    width: 643;
+    height: 672;
+}
+
+#topbar{ 
+    background-image: url(pics/coffey.jpg);
+    height: 200px;
+    width: 600px;
+    margin: 0px;
+    text-align: right;
+    
+    }
+
+#menu li { display:inline-block;
+    width: 100px;;
+   
+}
+
+#content{ float:left;
+    
+    }
+    
+#content img {
+    margin:5px;
+}
+
+#maincontent{float:;}
+
+#subcontent{}
+
+#bottomcontent{}
+
