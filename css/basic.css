@@ -1,4 +1,12 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body, html
+{
+
+width:600px;
+
+}
+
+
 a{
     display: none;
 }
@@ -7,92 +15,98 @@ li a{
     display: block;
 }
 
-#container {
-    width: 700;
-    /*height: 672;*/
+#menu li:hover{
+ 
+    background-color:#9c9084;
+    
+}
+
+
+.active{
+background-color: #eae7d2 !important;
+}
+.active a{
+color: #9e8076 !important;
 }
 
 #topbar{ 
     background-color: #51473d;   
-    height: 4px;
-    padding-right: 2px;
+    height: 3px;
     font-family: verdana;
     color: #fff;
     font-style: italic;
     font-size:11px;
-    padding-top: 5px;
+   
     padding-bottom: 14px;
-    width:698px;
-   
+    width:600px;
     background-repeat:no-repeat;
-    background-size: 650px 300px;
-   
+    background-size: 600px 300px;
     margin: 0px;
     text-align: right;
     
     }
+    
+#container {
+    width: 600px;
 
-#menu li { display:inline-block;
-    width: 100px;
-   
 }
-#menu ul .active {
-    background-color #eae7d2;
-}
+
+
+
 
 #menu ul .active a{
+    background-color: #EAE7D2;
     color: #797066;
+}
+
+#menu{
+     background-image: url(pics/coffey.jpg);
+     background-size: 600px 221px;
+     background-repeat: no-repeat;
+     height:267px;
+     background-color: #51473d;
+     width:600px;
+     margin-top:-16px;
+     border-bottom: solid white 1px;
+     
 }
 
 #menu ul {
     list-style-type:none;
     margin-left:-28px;
-    padding-top: 34px;
+    padding-top: 32px;
+    
     
 }
 
 #menu ul li{
     float:left;
     margin-top: 194px;
-    margin-right: 3px;
+    margin-right: 2px;
+    
     text-decoration: none;
     color: #fff;
     background-color: #797066;
     text-align: center;
-    height: 30px;
+   
     padding-right: 19px;
     padding-left: 19px;
-    padding-top: 9px;
+    padding-top: 18px;
     font-size: 19px;
     color: #dce7c5;
+
+
 }
 
-#menu{
-     background-image: url(pics/coffey.jpg);
-     background-size: 700px 221px;
-     background-repeat: no-repeat;
-     height:267px;
-     background-color: #51473d;
-     width:700px;
-     margin-top:-16px;
-     
-}
 
 #menu ul li a{
     color: #eae7d2;
     text-decoration: none;
     text-transform: capitalize;
-    font-family: verdana;
-    font-size: 16px;
-}
-
-
-#content{ float:left;
+    font-family: "Verdana";
+    font-size: 15px;
+    padding-bottom:5px;
     
-    }
-    
-#content img {
-    margin:5px;
 }
 
 #maincontent p{
@@ -119,21 +133,90 @@ li a{
 
 #maincontent{
     background-color: #eae7d2;
-    padding-top: 30px;
-    width: 390px;
+    padding-top: 5px;
+    width: 300px;
     float: left;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-#subcontent{
     
 }
 
-#maincontent{float:;}
-
 #subcontent{
+    background-color: #eae7d2;
+    width: 210px;
+    float: left;
+    margin-top: 21px;
+    border-left: dashed 1px #c0c0c0;
+    padding-left: 10px;
+   
 }
 
-#bottomcontent{}
+#subcontent h1{
+    font-family: "Times New Roman";
+    font-size: 19px;
+    font-weight: 100;
+    margin-bottom: 24px;
+    color: #797066;
+}
+
+#subcontent p{
+    margin-top: 18px;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 22px;
+    color: #797066;
+    
+}
+
+#content{
+    background-color: #eae7d2;
+    
+    
+    }
+    
+#bottomcontent{
+    clear: both;
+    font-family: verdana;
+    padding-bottom: 11px;
+    font-style: italic;
+    color: #797066;
+}
+
+#subcontent h2{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 67px;
+    margin-bottom: -11px;
+}
+    
+
+#bottomcontent{
+    clear: both;
+    font-family: verdana;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    font-size: 11px;
+    font-style: italic;
+    color: #797066;
+    
+}
+
+
+#subcontent ul{
+    list-style-type: none;
+    
+}
+
+#subcontent ul li{
+    margin-left: -40px;
+    
+}
+
+#subcontent ul li a{
+    color: #51473d;
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 22px;
+}
 
