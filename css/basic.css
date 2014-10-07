@@ -2,7 +2,12 @@
 body, html
 {
 
-width:642px;
+
+
+margin:auto;
+border-style:solid;
+border-width:1px;
+border-color:#F4F9DB;
 
 }
 
@@ -31,83 +36,88 @@ color: #9e8076 !important;
 
 #topbar{ 
     background-color: #51473d;   
-    height: 17px;
+    height: 16px;
+    padding-right: 2px;
     font-family: verdana;
     color: #fff;
     font-style: italic;
     font-size:11px;
+    
+   
     width:600px;
+   
     background-repeat:no-repeat;
-    background-size: 600px 300px;
+    background-size: 650px 300px;
+   
     margin: 0px;
     text-align: right;
     
     }
     
-#container {
-    width: 600px;
 
+
+
+#menu ul .active {
+    background-color: #eae7d2;
 }
 
-
-
-
 #menu ul .active a{
-    background-color: #EAE7D2;
     color: #797066;
 }
 
 #menu{
      background-image: url(pics/coffey.jpg);
-     background-size: 600px 221px;
+     background-size: 600px 232px;
      background-repeat: no-repeat;
      height:267px;
      background-color: #51473d;
      width:600px;
      margin-top:-16px;
-     border-bottom: solid white 1px;
      
 }
 
 #menu ul {
     list-style-type:none;
     margin-left:-28px;
-    padding-top: 32px;
-    
+    padding-top: 34px;
     
 }
 
 #menu ul li{
     float:left;
-    margin-top: 194px;
-    margin-right: 2px;
+    margin-top: 203px;
+    margin-right: 1px;
     text-decoration: none;
+    color: #fff;
     background-color: #797066;
     text-align: center;
-    padding-right: 19px;
-    padding-left: 19px;
-    padding-top: 18px;
+    height: 30px;
+    padding-bottom:0px;
     font-size: 19px;
-    color: #dce7c5;
-
-
+    
 }
+
 
 
 #menu ul li a{
     color: #eae7d2;
+    display:block;
     text-decoration: none;
     text-transform: capitalize;
     font-family: "Verdana";
-    font-size: 15px;
+    font-size: 14px;
+    padding-top:7px;
     padding-bottom:5px;
-    
+    padding-left:19px;
+    padding-right:16px;
+   
 }
 
 #maincontent p{
-    margin-top: 18px;
+    margin-top: 15px;
     font-family: verdana;
     font-size: 14px;
+    font-weight: 200px;
     line-height: 22px;
     color: #797066;
 }
@@ -132,17 +142,16 @@ color: #9e8076 !important;
     float: left;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 
 #subcontent{
     background-color: #eae7d2;
-    width: 210px;
+    width: 268px;
     float: left;
     margin-top: 21px;
     border-left: dashed 1px #c0c0c0;
     padding-left: 10px;
-   
+    height: 397px;
 }
 
 #subcontent h1{
@@ -165,7 +174,7 @@ color: #9e8076 !important;
 
 #content{
     background-color: #eae7d2;
-    
+    width: 600px;
     
     }
     
